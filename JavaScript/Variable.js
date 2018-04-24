@@ -45,7 +45,7 @@ var usuario = {
 };
 console.log(usuario.nombre);
 console.log(usuario); //Todo lo que está en javascript puede ser impreso
-delete usuario.edad; //para borrar un objeto
+//delete usuario.edad; //para borrar un objeto
 console.log(usuario);
 usuario.fechaNacimiento = new Date();//añadir
 console.log(usuario);
