@@ -65,7 +65,7 @@ console.log(dennis.imprimirUsuario(saludo:'Hola soy Goku'));
 let carla: UsuarioTres = {
     nombre: 'Dennis',
     edad = 21};
-interface UsuarioTres {
+interface UsuarioTres {//sirven para implementar una casa y para un dato, se tipea la variable carla para que tenga nombre y edad
     nombre: string;
     casado?: boolean;
     edad: number;
